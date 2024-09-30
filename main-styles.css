@@ -2,24 +2,116 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 html,body{
     width: 100%;
     height: 100%;
+    color: white;
 }
 
 html{
-    --cbgc1: 26, 29, 34;
-    --cc1: 42, 45, 50;
-    --cc2: 63, 68, 73;
+    scroll-behavior: smooth;
+    --cbgc1: 26, 29, 50;
+    --cc1: 42, 45, 58;
+    --cc2: 63, 68, 77;
     --cc3: 208, 208, 208;
     --cc4: 127, 132, 137;
+    --obsidian1: 17,16,51;
+    --obsidian2: 31,1,34;
+    /* prefer obsidan2 > 1 (2 is darker) */
 }
 
 body{
-    background-color: rgb(var(--cbgc1));
     font-size: large;
+    background-image: url(fireplace-5090110_1920_blur.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar{
+    background-image: linear-gradient(rgb(12,12,12), rgb(24,24,24));
+    box-shadow: 2px 2px 5px black;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+#nav-name{
+    color: turquoise;
+}
+
+#socials-link a{
+    color: white;
+    text-decoration: none;
+}
+
+main{
+    font-size: 1.5rem;
+}
+
+.intro{
+    padding: 2rem 10% 1em 10%;
+    background-color: rgb(var(--obsidian2));
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.intro h2{
+    align-self: center;
+}
+
+.intro img{
+    border-radius: 30px;
+    width: 40%;
+}
+
+img{
+    max-width: 100%;
+}
+
+.part-one{
+    max-width: 80%;
+    margin-left: 20%;
+    margin-top: 12em;
+}
+
+.v-topics{
+    margin: 0 10px;
+    padding: 10px;
+    padding-left: 15px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    max-width: 49%;
+}
+
+#about-me h2{
+    margin-bottom: 1rem;;
+}
+
+#about-me{
+    background-color: rgb(var(--cc1));
+    margin-right: 50%
+}
+
+.point{
+    margin: 0.5rem 0;
+}
+
+.point span{
+    margin-left: 1.8rem;
+    display: block;
+}
+
+#skills{
+    margin-left: 50%;
+    background-color: rgb(var(--cc2));
 }
