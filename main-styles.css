@@ -33,6 +33,12 @@ body{
     background-size: cover;
 }
 
+.didact-gothic-regular {
+    font-family: "Didact Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
+
 .navbar{
     background-image: linear-gradient(rgb(12,12,12), rgb(24,24,24));
     box-shadow: 2px 2px 5px black;
