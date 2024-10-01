@@ -79,9 +79,12 @@ h2{
     align-self: center;
 }
 
-.intro img{
-    border-radius: 30px;
+#intro-image{
     width: 40%;
+}
+
+.rounded-image{
+    border-radius: 30px;
 }
 
 img{
@@ -95,7 +98,7 @@ img{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 0.8rem;
+    gap: 1rem;
 }  
 
 .v-topics{
@@ -139,8 +142,12 @@ img{
 }
 
 .part-two{
-    margin-top: 12em;
-    margin-bottom: 0;
+    margin: 12em 2%;
+    border-radius: 30px;
+}
+
+.currently-learning,.socials{
+    border-radius: 30px;
 }
 
 .part-two *{
@@ -149,6 +156,8 @@ img{
 
 .currently-learning{
     background-color: rgb(var(--obsidian1));
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
 }
 
 #learning-group img{
@@ -156,11 +165,15 @@ img{
     max-width: max-content;
 }
 
-#learning-group{
+#learning-group,#socials-group{
     display: flex;
-    justify-content: flex-start;
     align-content: center;
     gap: 1.3rem;
+    flex-wrap: wrap;
+}
+
+#learning-group{
+    justify-content: space-evenly;
 }
 
 #skills img{
@@ -179,13 +192,12 @@ img{
 
 .socials{
     background-color: rgb(var(--cbgc1));
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
 }
 
 #socials-group{
-    display: flex;
-    justify-content: space-evenly;
-    align-content: center;
-    gap: 1.3rem;
+    justify-content: space-evenly;;
 }
 
 #socials-group a{
@@ -196,12 +208,12 @@ footer{
     background-color: #000;
     color: white;
     display: flex;
-    justify-content: center;
-    align-content: center;
+    justify-content: space-around;
+    align-content: space-evenly;
     padding: 20vh 5%;
+    font-size: 18px;
 }
 
 footer a{
     color: white;
-    font-size: 14px;
 }
