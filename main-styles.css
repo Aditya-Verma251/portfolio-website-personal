@@ -33,6 +33,12 @@ body{
     background-size: cover;
 }
 
+.didact-gothic-regular {
+    font-family: "Didact Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
+
 .navbar{
     background-image: linear-gradient(rgb(12,12,12), rgb(24,24,24));
     box-shadow: 2px 2px 5px black;
@@ -84,7 +90,7 @@ h2{
 }
 
 .rounded-image{
-    border-radius: 30px;
+    border-radius: 40px;
 }
 
 img{
@@ -103,6 +109,8 @@ img{
     padding: 10px;
     padding-left: 15px;
     width: 50%;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
 }
 
 #about-me h2{
@@ -111,8 +119,6 @@ img{
 
 #about-me{
     background-color: rgb(var(--cc1));
-    border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
     margin-right: 50%;
 }
 
@@ -131,8 +137,6 @@ img{
 
 #skills{
     background-color: rgb(var(--cc2));
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
     margin-left: 50%;
 }
 
@@ -146,7 +150,7 @@ img{
 }
 
 .currently-learning,.socials{
-    border-radius: 30px;
+    border-radius: 50px;
 }
 
 .part-two *{
@@ -169,6 +173,7 @@ img{
     align-content: center;
     gap: 1.3rem;
     flex-wrap: wrap;
+    margin-bottom: 2em;
 }
 
 #learning-group{
@@ -182,6 +187,10 @@ img{
 
 #skills p{
     margin-bottom: 1.5em;
+}
+
+#javascript-image{
+    border-radius: 50px;
 }
 
 #socials-group img{
