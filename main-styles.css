@@ -92,20 +92,17 @@ img{
 }
 
 .part-one{
-    margin-right: 5%;
-    margin-left: 5%;
+    margin-left: 20%;
+    width: 80%;
     margin-top: 12em;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1rem;
+    padding: 1%;
 }  
 
 .v-topics{
     margin: 0;
     padding: 10px;
     padding-left: 15px;
-    width: 45%;
+    width: 50%;
 }
 
 #about-me h2{
@@ -116,6 +113,7 @@ img{
     background-color: rgb(var(--cc1));
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
+    margin-right: 50%;
 }
 
 #about-me p{
@@ -135,6 +133,7 @@ img{
     background-color: rgb(var(--cc2));
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
+    margin-left: 50%;
 }
 
 #skills h2{
