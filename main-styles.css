@@ -90,7 +90,7 @@ h2{
 }
 
 .rounded-image{
-    border-radius: 30px;
+    border-radius: 40px;
 }
 
 img{
@@ -120,8 +120,8 @@ img{
 
 #about-me{
     background-color: rgb(var(--cc1));
-    border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
 }
 
 #about-me p{
@@ -139,8 +139,8 @@ img{
 
 #skills{
     background-color: rgb(var(--cc2));
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
 
 #skills h2{
@@ -149,11 +149,11 @@ img{
 
 .part-two{
     margin: 12em 2%;
-    border-radius: 30px;
+    border-radius: 50px;
 }
 
 .currently-learning,.socials{
-    border-radius: 30px;
+    border-radius: 50px;
 }
 
 .part-two *{
@@ -176,10 +176,15 @@ img{
     align-content: center;
     gap: 1.3rem;
     flex-wrap: wrap;
+    margin-bottom: 2em;
 }
 
 #learning-group{
     justify-content: space-evenly;
+}
+
+#javascript-image{
+    border-radius: 50px;
 }
 
 #skills img{
